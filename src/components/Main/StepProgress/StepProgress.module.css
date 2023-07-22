@@ -1,0 +1,55 @@
+@value colors: "../../../colors.module.css";
+@value _black from colors;
+
+
+.registerTitle {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.progressLabel {
+  font-size: 16px;
+}
+
+.progressContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+
+.progressGroup {
+  display: flex;
+  align-items: center;
+}
+
+.progressIcon {
+  position: relative;
+}
+
+.circleContainer {
+  height: 24px;
+  width: 24px;
+  border: 1px solid _black;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 0.6em;
+}
+
+.progressBar {
+  height: 1.5px;
+  background-color: _black;
+  width: 60px;
+  margin: 0.8em 0.5em 0 0.5em;
+}
+
+.pgComplete {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0;
+}

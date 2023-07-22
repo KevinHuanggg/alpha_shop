@@ -1,0 +1,75 @@
+@value colors: "../../../../colors.module.css";
+@value _black from colors;
+@value grayLabel from colors;
+
+.formBody {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.formRow {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.name,
+.address {
+  flex: 1;
+  margin-left: 2em;
+}
+
+.gender,
+.city {
+  width: 25%;
+}
+
+.name .input,
+.address .input {
+  width: 100%;
+}
+
+.phoneNum {
+  width: 35%;
+}
+
+.email {
+  width: 60%;
+}
+
+.select {
+  background-color: transparent;
+  width: 100%;
+}
+
+.formTitle {
+  font-size: 25px;
+  margin-bottom: 2rem;
+}
+
+.inputLabel {
+  display: block;
+  font-size: 12px;
+  color: grayLabel;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.selectContainer {
+  position: relative;
+  z-index: 0;
+}
+
+.selectContainer::after {
+  content: "";
+  border-style: solid;
+  border-width: 6px 5px 0 5px;
+  border-color: _black transparent transparent transparent;
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+  z-index: -1;
+}
