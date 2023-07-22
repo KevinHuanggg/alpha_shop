@@ -1,0 +1,53 @@
+section.progressControlContainer {
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+section.buttonGroup {
+  display: flex;
+  padding-top: 24px;
+  border-top: 1px solid #e6e6eb;
+}
+
+section.buttonGroup button {
+  display: flex;
+  align-items: center;
+  height: 46px;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  border-radius: 8px;
+  border-width: 0px;
+  padding: 0px;
+}
+
+.arrowLeft,
+.arrowRight {
+  width: 24px;
+  height: 24px;
+}
+
+section.buttonGroup button.prev {
+  background-color: transparent;
+  line-height: 20px;
+  font-weight: 400;
+  color: #000000;
+}
+
+section.buttonGroup button.prev > .arrowLeft {
+  margin-right: 12px;
+}
+section.buttonGroup button.next {
+  justify-content: center;
+  width: 174px;
+  font-weight: 500;
+  line-height: 17px;
+  background: #f67599;
+  color: #ffffff;
+  margin-left: auto;
+}
+section.buttonGroup button.next > .arrowRight {
+  margin-left: 12px;
+}

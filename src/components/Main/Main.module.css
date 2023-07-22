@@ -54,7 +54,9 @@ input::placeholder {
   margin: 0 auto;
 }
 
-
+.progressControlWrapper {
+  position: relative;
+}
 
 .cartContainer {
   position: absolute;

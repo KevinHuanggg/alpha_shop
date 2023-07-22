@@ -18,7 +18,7 @@ export default function Main() {
             {/* <Step2/> */}
             {/* <Step3/> */}
           </section>
-          <section className={styles.progressControlContainer}>
+          <section className={styles.progressControlWrapper}>
             <ProgressControl />
           </section>
         </div>
