@@ -1,6 +1,5 @@
-@value colors: "../../../colors.module.css";
+@value colors: "../../../styles/colors.module.css";
 @value _black from colors;
-
 
 .registerTitle {
   font-weight: 700;

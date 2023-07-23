@@ -1,4 +1,4 @@
-@value colors: "../../colors.module.css";
+@value colors: "../../styles/colors.module.css";
 @value grayDark from colors;
 @value grayBasic from colors;
 @value whiteBasic from colors;

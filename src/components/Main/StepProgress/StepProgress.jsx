@@ -1,5 +1,5 @@
 import styles from "./StepProgress.module.css";
-import pgComplete from "../../../icons/pg-complete.svg";
+import pgComplete from "../../../assets/icons/pg-complete.svg";
 
 function Progress({ dataPhase, textValue, labelValue }) {
   return (
