@@ -2,8 +2,9 @@ import styles from "./Main.module.css";
 import StepProgress from "./StepProgress/StepProgress.jsx";
 import Step1 from "./Steps/Step1/Step1.jsx";
 import ProgressControl from "./ProgressControl/ProgressControl.jsx";
+import Cart from "./Cart/Cart.jsx"
 
-export default function Main() {
+function Main() {
   return (
     /* main */
     <main className={styles.siteMain}>
@@ -24,7 +25,7 @@ export default function Main() {
         </div>
         <div className={styles.right}>
           <section className={styles.cartContainer}>
-            {/* <Cart /> */}
+            <Cart />
             {/*Cart Cart Cart Cart*/}
           </section>
         </div>
@@ -32,3 +33,5 @@ export default function Main() {
     </main>
   );
 }
+
+export default Main;
