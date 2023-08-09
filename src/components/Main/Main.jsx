@@ -1,8 +1,10 @@
 import styles from "./Main.module.css";
 import StepProgress from "./StepProgress/StepProgress.jsx";
-import Step1 from "./Steps/Step1/Step1.jsx";
+import Step1 from "./Steps/Step1.jsx";
+import Step2 from "./Steps/Step2.jsx";
+import Step3 from "./Steps/Step3.jsx";
 import ProgressControl from "./ProgressControl/ProgressControl.jsx";
-import Cart from "./Cart/Cart.jsx"
+import Cart from "./Cart/Cart.jsx";
 
 function Main() {
   return (
@@ -16,8 +18,8 @@ function Main() {
           </section>
           <section className={styles.formContainer}>
             <Step1 />
-            {/* <Step2/> */}
-            {/* <Step3/> */}
+            <Step2 />
+            <Step3 />
           </section>
           <section className={styles.progressControlWrapper}>
             <ProgressControl />
@@ -26,7 +28,6 @@ function Main() {
         <div className={styles.right}>
           <section className={styles.cartContainer}>
             <Cart />
-            {/*Cart Cart Cart Cart*/}
           </section>
         </div>
       </div>
