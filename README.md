@@ -4,8 +4,7 @@
 
 ## 專案畫面
 
-![image](images/screenshot-step-2.png)
-![image](images/screenshot-devtool.png)
+![image](public/images/demo_1.jpg)
 
 ## 功能
 
@@ -21,6 +20,10 @@
     - CartItem：個別商品。
 
 - 進度更新
+
+  - 08/10
+
+    - 小修改 css 以及 README。
 
   - 08/09
 

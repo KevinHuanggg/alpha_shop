@@ -1,5 +1,3 @@
-import { ReactComponent as LeftArrow } from "../../../assets/icons/arrow-left.svg";
-import { ReactComponent as RightArrow } from "../../../assets/icons/arrow-right.svg";
 import styles from "./ProgressControl.module.css";
 import StepBtn1 from "./StepBtn1";
 import StepBtn2 from "./StepBtn2";
