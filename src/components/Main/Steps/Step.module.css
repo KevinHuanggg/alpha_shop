@@ -4,6 +4,7 @@
 
 .formBody {
   width: 100%;
+  min-height: 270px;
   display: flex;
   flex-direction: column;
 }
@@ -72,4 +73,16 @@
   right: 8px;
   transform: translateY(-50%);
   z-index: -1;
+}
+
+.radioGroup {
+  display: flex;
+  justify-items: start;
+  flex-direction: row-reverse;
+}
+
+.radioInfo {
+  margin-bottom: 30px;
+  width: 400px;
+  height: 100px;
 }
